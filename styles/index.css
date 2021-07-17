@@ -15,10 +15,11 @@ body {
 }
 
 .myImage {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    /* border: 2px solid rgb(95, 108, 121); */
+    cursor: pointer;
+    border: 5px solid rgb(95, 108, 121);
 }
 
 .text-h3 {
@@ -35,6 +36,7 @@ body {
     max-width: 100%;
     white-space: nowrap;
     overflow: hidden;
+    cursor: pointer;
     font-family: 'Karla', swap;
 }
 
@@ -106,9 +108,10 @@ body {
 }
 
 #brand-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 5px solid rgb(132, 199, 255);
 }
 
 .brand-name {
@@ -122,4 +125,64 @@ footer {
 
 #company {
     margin-top: -15px;
+}
+
+.about_div {
+    width: 50%;
+    color: rgb(155, 155, 155);
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(131, 228, 231);
+    box-shadow: 3px 3px 3px whitesmoke;
+}
+
+.about_div:hover {
+    width: 50%;
+    color: rgb(155, 155, 155);
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(131, 228, 231);
+    box-shadow: 10px 10px 10px whitesmoke;
+    transform: scale(1.1);
+    z-index: 9;
+}
+
+.about_div span {
+    font-size: 20px;
+}
+
+#myBtn {
+    width: 50px;
+    height: 50px;
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
 }

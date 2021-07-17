@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-responsive {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.about_content {
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Karla', swap;
+    background-color: white;
+}
+
+.icons {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icons:hover {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(0, 153, 255);
+}
