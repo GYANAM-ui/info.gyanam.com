@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.spo {
+    font-size: 20px;
+    font-family: 'Karla', swap;
+}
+
+.spo:hover {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(0, 153, 255);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imgs/apple.png" type="image/x-icon">
+    <title>My Playlist</title>
+    <link rel="stylesheet" href="./css/play.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body background="../imgs/background.png">
+    <center>
+        <div class="content">
+            <div class="btn btn-success mt-5">
+                <audio controls src="../imgs/audio/Tere Naina.mp3"></audio>
+                <p class="text-light">Time: 5mins</p>
+            </div>
+            <br>
+            <span onclick="spotify();" class="spo">
+                Access me on Spotify 
+                <i class="fa fa-spotify mt-5"></i>
+            </span>
+        </div>
+    </center>
+
+    <script>
+        function spotify() {
+            window.open("https://open.spotify.com/user/31t25c3zq6laislbubup652sgnjy");
+        }
+    </script>
+</body>
+
+</html>
